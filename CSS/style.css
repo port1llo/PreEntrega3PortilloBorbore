@@ -22,11 +22,13 @@ header{
     display: flex;
     flex-flow: row;
     justify-content: space-between;
-    background-color: #B0D9B1;
+    background-color: #79AC78;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Quicksand', sans-serif;
 }
+
+
 li{
     list-style: none;
     display: flex;
@@ -49,18 +51,21 @@ footer{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Quicksand', sans-serif;
-       display: flex;
-    justify-content: space-between;
+     
    
 }
 footer.div.a{
      display: flex;
-    justify-content: space-between;
-    font-style: none; 
+       text-align: justify;
+       text-decoration-style: none;
 }
 
 
 #laFoto { height: 150px;
     width: 150px;
 }
-
+ 
+#formacion{
+    text-decoration: none;
+    color: whitesmoke;
+}
