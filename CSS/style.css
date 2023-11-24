@@ -1,0 +1,66 @@
+/* paleta de colores usadas para fondo de la pagina 
+https://www.colorhunt.co/palette/61826479ac78b0d9b1d0e7d2*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: inline-flexbox;
+    flex-wrap: wrap;
+    background-color: #618264;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* HEADER */
+header{
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    background-color: #B0D9B1;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+li{
+    list-style: none;
+    display: flex;
+    
+    justify-content: space-between;
+
+    
+    
+    
+}
+
+form{
+    
+}
+
+
+/* FOOTER */
+footer{
+    background-color: #79AC78;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+       display: flex;
+    justify-content: space-between;
+   
+}
+footer.div.a{
+     display: flex;
+    justify-content: space-between;
+    font-style: none; 
+}
+
+
+#laFoto { height: 150px;
+    width: 150px;
+}
+
