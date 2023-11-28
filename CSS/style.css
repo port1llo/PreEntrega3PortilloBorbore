@@ -13,6 +13,7 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Quicksand', sans-serif;
+   
 }
 
 /* HEADER */
@@ -22,7 +23,7 @@ header{
     display: flex;
     flex-flow: row;
     justify-content: space-between;
-    background-color: #79AC78;
+    background-color: #F8F9FA;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Quicksand', sans-serif;
@@ -40,10 +41,68 @@ li{
     
 }
 
+.container-fluid{
+
+  display: grid;
+grid-area: auto;
+
+  
+}
+/*FORMULARIO*/
 form{
-    
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+
+  /* Centrar el formulario en la página */
+    margin: 0 auto;
+  width: 400px;
+  /* Esquema del formulario */
+  padding: 1em;
+  /*border: 1px solid #ccc;
+  border-radius: 1em;*/
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  /* Tamaño y alineación uniforme */
+  display: inline-block;
+  width: 90px;
+  text-align: left;
+}
+
+input,
+textarea {
+  
+  /* Tamaño uniforme del campo de texto */
+  width: 300px;
+  box-sizing: border-box;
+
+}
+
+input:focus,
+textarea:focus {
+  /* Destacado adicional para elementos que tienen el cursor */
+  border-color: #000;
+}
+
+textarea {
+  /* Alinear los campos de texto multilínea con sus etiquetas */
+  vertical-align:left;}
+button {
+  /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+     entre las etiquetas y sus campos de texto */
+  margin-left: 0.5em;
+} 
 
 /* FOOTER */
 footer{
@@ -51,21 +110,44 @@ footer{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Quicksand', sans-serif;
+    display:flex;
+    align-content: space-around;
      
    
 }
-footer.div.a{
-     display: flex;
-       text-align: justify;
-       text-decoration-style: none;
+.iconos{ height: 40px;
+    width: 40px;
+
 }
 
-
-#laFoto { height: 150px;
+.laFoto { height: 150px;
     width: 150px;
+    border-radius: 10%;
 }
  
-#formacion{
-    text-decoration: none;
-    color: whitesmoke;
+
+h2{
+    color:whitesmoke;
 }
+/*div.enlacepagina{
+  display: flex;
+  justify-content: center;
+ 
+}*/
+body section div a {
+  text-decoration: none;
+    color: black;
+  transition: 1s;
+  }
+body section div a:hover{
+  background-color: whitesmoke;
+  border-radius: 10%;
+}
+
+  body footer div a{
+     display: flex;
+       text-align:center;
+       text-decoration:none;
+       color: whitesmoke;
+}
+
