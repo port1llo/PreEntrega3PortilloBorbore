@@ -1,178 +1,186 @@
-/* paleta de colores usadas para fondo de la pagina 
-https://www.colorhunt.co/palette/61826479ac78b0d9b1d0e7d2*/
-
+@charset "UTF-8";
 * {
-    margin: 0;
-    padding: 0;
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    display: inline-flexbox;
-    flex-wrap: wrap;
-    background-color: #618264;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Quicksand', sans-serif;
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}
+header nav div .laFoto {
+  height: 150px;
+  width: 150px;
+  border-radius: 10%;
+}
+header nav div .container-fluid {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  margin: 5px;
+}
+header nav div div ul li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
 }
 
-/* HEADER */
-header{
-    position: sticky;
-    top: 0;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-between;
-    background-color: #F8F9FA;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Quicksand', sans-serif;
-    color:#000
-  }
-
-li{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
+/*$color-fondo: #79AC78;
+$color-letra: #F8F9FA;
+$font-family: Arial, Helvetica, sans-serif; */
+main {
+  background-color: #79AC78;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-content: space-around;
 }
-
-.container-fluid{
+main .container-fluid {
   display: grid;
   grid-area: auto;
+  grid-area: auto;
 }
-
-/*FORMULARIO*/
-form{
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Quicksand', sans-serif;
-  margin: 0 auto;
-  width: 400px;
-  padding: 1em;
-  color:#000
+main section {
+  margin-left: 5px;
 }
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+main section div h2 {
+  color: #F8F9FA;
+  text-align: center;
 }
-
-form li + li {
-  margin-top: 1em;
+main section div a {
+  padding: 5px;
+  margin: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #F8F9FA;
+  /*background-color:;*/
+  transition: 1s;
 }
-
-label {
-  display: inline-block;
-  width: 90px;
-  text-align: left;
-  color:#000
+main section div a:hover {
+  background-color: #F8F9FA;
+  border-radius: 10%;
+  color: #79AC78;
 }
-
-input,
-textarea {
-  width: 300px;
-  box-sizing: border-box;
-  color:#000
+main section div .textito {
+  text-align: justify;
+  margin: 10px;
+  color: #F8F9FA;
 }
-
-input:focus,textarea:focus {
-  border-color: #000;
+main section div .laFoto {
+  height: 150px;
+  width: 150px;
+  border-radius: 10%;
 }
-
-textarea {
-  vertical-align:left;
-  color:#000
+main section div .laFotoColombo {
+  height: 150px;
+  width: 200px;
+  border-radius: 10%;
 }
-button {
-    margin-left: 0.5em;
-    color:#000
-} 
-
-label.form-check-label{
-  display: inline-block;
-  width: 90%;
+main section div .sobreMi {
+  margin-left: 10px;
+  color: #F8F9FA;
 }
-.conMail{
-  color:whitesmoke;
+main section .proteccionDatos {
+  color: #F8F9FA;
   display: flex;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   margin-left: 20px;
 }
 
 /* FOOTER */
-footer{
+/*$color-fondo: #79AC78;
+$color-letra: #F8F9FA;
+$font-family: Arial, Helvetica, sans-serif;*/
+footer {
   background-color: #79AC78;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Quicksand', sans-serif;
-  display:flex;
-  align-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: end;
+  justify-content: space-around;
   margin-top: 20px;
-  margin-left: 10px;
+  margin-left: 0px;
 }
-
-.iconos{ height: 40px;
+footer div .laFoto {
+  height: 150px;
+  width: 150px;
+  border-radius: 10%;
+}
+footer div a .iconos {
+  height: 40px;
   width: 40px;
   margin-right: 10px;
   margin-left: 10px;
+  display: flex;
 }
-
-.laFoto { height: 150px;
-    width: 150px;
-    border-radius: 10%;
-}
-.laFotoColombo {
-  height: 150px;
-  width: 200px;
-  border-radius: 10%;
-
-}
- 
-h2{
-  color:whitesmoke;
+footer div a {
+  display: flex;
   text-align: center;
-}
-
-body section div a {
   text-decoration: none;
-  color: black;
-  transition: 1s;
-  }
-  
-body section div a:hover{
-  background-color: whitesmoke;
-  border-radius: 10%;
+  color: #F8F9FA;
 }
-
-body footer div a{
-  display: flex;
-  text-align:center;
-  text-decoration:none;
-  color: whitesmoke;
-}
-
-.redes{
+footer .redes {
   display: flex;
 }
 
-.fin{
+.fin {
   text-align: center;
-  color:#000
+  color: #000;
 }
 
-.sobreMi{
-  margin-left: 10px;
-  color:whitesmoke;
-  }
-
-.container-fluid{
-  display: flex;
-  align-items: center;
-  align-content: space-between;
+/* @import "base/font.scss";*/
+/*FORMULARIO*/
+form {
+  font-family: Arial, Helvetica, sans-serif;
+  /* Centrar el formulario en la página */
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  width: 400px;
+  /* Esquema del formulario */
+  padding: 1em;
+  color: #F8F9FA;
+}
+form label {
+  /* Tamaño y alineación uniforme */
+  display: inline-block;
+  width: 90px;
+  text-align: left;
+  color: #F8F9FA;
+}
+form input,
+form textarea {
+  /* Tamaño uniforme del campo de texto */
+  width: 300px;
+  box-sizing: border-box;
+  color: #000;
+}
+form input:focus,
+form textarea:focus {
+  /* Destacado adicional para elementos que tienen el cursor */
+  vertical-align: left;
+  color: #000;
+}
+form input:focus input:focus, form input:focus textarea:focus,
+form textarea:focus input:focus,
+form textarea:focus textarea:focus {
+  border-color: #000;
+}
+form input:focus textarea,
+form textarea:focus textarea {
+  /* Alinear los campos de texto multilínea con sus etiquetas */
+  vertical-align: left;
+}
+form button {
+  /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+      entre las etiquetas y sus campos de texto */
+  margin-left: 0.5em;
+  margin-left: 0.5em;
+  color: #F8F9FA;
+}
+form label.form-check-label {
+  display: inline-block;
+  width: 90%;
 }
 
-.textito {
-  text-align: justify;
-  margin: 10px;
-}
+/*# sourceMappingURL=style.css.map */

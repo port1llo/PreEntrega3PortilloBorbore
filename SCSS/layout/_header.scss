@@ -1,0 +1,37 @@
+$color-fondo: #79AC78;
+$color-letra: #F8F9FA;
+$font-family: Arial, Helvetica, sans-serif; 
+
+header{
+    font-family: $font-family;
+        color: #000;
+
+    nav {
+        div{
+            .laFoto { 
+                height: 150px;
+                width: 150px;
+                border-radius: 10%;
+            }
+            .container-fluid{
+                display: flex;
+                align-items: center;
+                align-content: space-between;
+                margin: 5px;
+            }
+
+            div{
+                ul{
+                    li{
+                        list-style: none;
+                        display: flex;
+                        justify-content: space-between;
+                        margin: 5px;
+                        }
+                }
+            }
+        }
+    }
+
+        
+    }

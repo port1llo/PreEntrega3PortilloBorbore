@@ -1,0 +1,58 @@
+
+ /*FORMULARIO*/
+    form {
+        font-family: $font-family;
+        
+    /* Centrar el formulario en la página */
+        margin: 0 auto;
+    font-family: $font-family;
+    margin: 0 auto;
+    width: 400px;
+    /* Esquema del formulario */
+    padding: 1em;
+    color: $color-letra;
+    
+
+    label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 90px;
+    text-align: left;
+    color:$color-letra;
+    }
+
+    input,
+    textarea {
+
+    /* Tamaño uniforme del campo de texto */
+    width: 300px;
+    box-sizing: border-box;
+    color:#000
+    }
+
+    input:focus,
+    textarea:focus {
+    /* Destacado adicional para elementos que tienen el cursor */
+    input:focus,textarea:focus {
+    border-color: #000;
+    }
+
+    textarea {
+    /* Alinear los campos de texto multilínea con sus etiquetas */
+    vertical-align:left;}
+    vertical-align:left;
+    color: #000;
+    }
+    button {
+    /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+        entre las etiquetas y sus campos de texto */
+    margin-left: 0.5em;
+        margin-left: 0.5em;
+        color:$color-letra;
+    } 
+     
+    label.form-check-label{
+    display: inline-block;
+    width: 90%;
+    }
+}

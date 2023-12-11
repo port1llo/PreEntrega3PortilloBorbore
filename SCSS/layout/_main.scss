@@ -1,0 +1,78 @@
+//Variable
+/*$color-fondo: #79AC78;
+$color-letra: #F8F9FA;
+$font-family: Arial, Helvetica, sans-serif; */
+@import"../utilities/mixin";
+
+
+main{
+    background-color: $color-fondo;
+    font-family: $font-family;
+    display:flex;
+    align-content: space-around;
+    
+
+    .container-fluid{
+    display: grid;
+    grid-area: auto;
+    grid-area: auto;
+    }
+ section {
+             margin-left: 5px;
+                       div{ 
+                                     
+                        h2{
+                            color:$color-letra;
+                            text-align: center;
+                            }
+                        a { 
+                            padding: 5px;
+                            margin: 20px;
+                            text-decoration: none;
+                            border-radius: 5px;
+                            color: $color-letra;
+                            /*background-color:;*/
+                            transition: 1s;
+                            &:hover{
+                                background-color: $color-letra;
+                                border-radius: 10%;
+                                color:$color-fondo
+                            }
+                        }
+                        .textito {
+                            text-align: justify;
+                            margin: 10px;
+                            color:  $color-letra;
+                        }
+
+                        .laFoto { 
+                            height: 150px;
+                            width: 150px;
+                            border-radius: 10%;
+                        }
+                        .laFotoColombo {
+                            height: 150px;
+                            width: 200px;
+                            border-radius: 10%;
+                                }    
+                    .sobreMi{
+                        margin-left: 10px;
+                        color:  $color-letra;
+                            }
+                }
+            
+
+   
+
+ 
+    .proteccionDatos{
+  color: $color-letra;
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 20px;
+    }
+
+ 
+
+}   
+}
