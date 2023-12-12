@@ -1,5 +1,14 @@
-@mixin fuente-parrafos ($size, $family, $color){
-    font-size: $size;
+@mixin fuente-parrafos ($color-fondo, $family, $color){
+    background-color: $color-fondo;
     font-family: $family;
-    color: $color;
+    color: $color-letra;
 }
+
+$color-fondo: #79AC78;
+$color-letra: #F8F9FA;
+$font-family: Arial, Helvetica, sans-serif; 
+
+/*@include fuente-parrafos(#79AC78, Arial, Helvetica, sans-serif,#F8F9FA);*/
+
+
+
