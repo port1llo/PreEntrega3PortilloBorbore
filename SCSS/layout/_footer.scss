@@ -15,21 +15,22 @@ footer{
   margin-left: 0px;
 
   div{
-    .laFoto { 
+      .laFoto { 
             height: 150px;
             width: 150px;
             border-radius: 10%;
-    }
-              a{
-                .rounded float-end{ 
-                    height: 40px;
-                    width: 40px;
-                    margin-right: 10px;
-                    margin-left: 10px;
-                    display: flex;
+            }
+      a{
+         .iconos { 
+             height: 35px;
+             width: 35px;
+             margin-right: 10px;
+             margin-left: 10px;
+             
+             
                         }
                 }
-              }
+              
            
      a{
         display: flex;
@@ -41,7 +42,8 @@ footer{
             display: flex;
           }
 }
+}
 .fin{
   text-align: center;
-  color: $color-letra;
+  color: $color-fondo;
 }

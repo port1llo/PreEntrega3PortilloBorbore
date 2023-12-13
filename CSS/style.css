@@ -74,13 +74,15 @@ main section div .laFoto {
   height: 150px;
   width: 150px;
   border-radius: 10%;
-  -webkit-box-shadow: 25px 28px 19px -17px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 25px 28px 19px -17px rgba(0, 0, 0, 0.75);
-  box-shadow: 25px 28px 19px -17px rgba(0, 0, 0, 0.75);
 }
 main section div .laFotoColombo {
   height: 150px;
   width: 200px;
+  border-radius: 10%;
+}
+main section div .laFoto-consultoria {
+  height: 85%;
+  width: 85%;
   border-radius: 10%;
 }
 main section div .sobreMi {
@@ -110,25 +112,24 @@ footer div .laFoto {
   border-radius: 10%;
 }
 footer div a .iconos {
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   margin-right: 10px;
   margin-left: 10px;
-  display: flex;
 }
-footer a {
+footer div a {
   display: flex;
   text-align: center;
   text-decoration: none;
   color: #F8F9FA;
 }
-footer .redes {
+footer div .redes {
   display: flex;
 }
 
 .fin {
   text-align: center;
-  color: #F8F9FA;
+  color: #79AC78;
 }
 
 /* @import "base/font.scss";*/
