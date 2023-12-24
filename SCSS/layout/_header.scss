@@ -1,10 +1,10 @@
 
-/*$color-fondo: #79ac78;*/
+$color-fondo: #79ac78;
 $color-letra: #f8f9fa;
 $font-family: Arial, Helvetica, sans-serif; 
 
 header{
-   
+   background-color: $color-fondo;
        font-family: $font-family;
            color: #000;
 
@@ -14,20 +14,23 @@ header{
                 height: 150px;
                 width: 150px;
                 border-radius: 10%;
+                margin-right: 5px;
             }
             .container-fluid{
                 display: flex;
                 align-items: center;
                 align-content: space-between;
-                margin: 5px;
+                margin: 10px;
             }
 
             div{
                 ul{
+                    display: flex;
+                    justify-content: space-between;
                     li{
                         list-style: none;
-                        display: flex;
-                        justify-content: space-between;
+                        
+                        
                         margin: 5px;
                         }
                 }

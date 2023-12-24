@@ -6,11 +6,9 @@ $font-family: Arial, Helvetica, sans-serif;
 
 
 main{
-    background: rgb(2,0,36);
-    background: -moz-linear-gradient(90deg, rgba(2,0,36,0.7483368347338936) 34%, rgba(146,17,168,1) 58%, rgba(196,10,186, 1) 91%);
-    background: -webkit-linear-gradient(90deg, rgba(2,0,36,0.7483368347338936) 34%, rgba(146,17,168,1) 58%, rgba(196,10,186,1) 91%);
-    background: linear-gradient(90deg, rgba(2,0,36,0.7483368347338936) 34%, rgba(146,17,168,1) 58%, rgba(196,10,186,1) 91%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#c40aba",GradientType=1);
+  background: rgb(45,48,42);
+background: linear-gradient(16deg, rgba(45,48,42,0.4430147058823529) 11%, rgba(62,68,47,1) 37%, rgba(92,107,60,0.6671043417366946) 59%, rgba(92,107,60,1) 73%, rgba(92,107,60,0.38139005602240894) 95%);
+  font-family: $font-family;
     /*background-color: $color-fondo;*/
     font-family: $font-family;
     display:flex;
